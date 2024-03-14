@@ -49,7 +49,7 @@
 		5C2CB4A52B996461008E573F /* ProcessInfoExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessInfoExt.swift; sourceTree = "<group>"; };
 		5C2CB4A72B996647008E573F /* AboutSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSettingView.swift; sourceTree = "<group>"; };
 		5C70758C2BA047D200B0B7BB /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		5C9EB5112B64A4AE00601422 /* RememberRestart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberRestart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9EB5112B64A4AE00601422 /* RememberRestart-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RememberRestart-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9EB5142B64A4AE00601422 /* RememberRestartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RememberRestartApp.swift; sourceTree = "<group>"; };
 		5C9EB5182B64A4AF00601422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C9EB51B2B64A4AF00601422 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		5C9EB5122B64A4AE00601422 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C9EB5112B64A4AE00601422 /* RememberRestart.app */,
+				5C9EB5112B64A4AE00601422 /* RememberRestart-dev.app */,
 				5C9EB5222B64A4AF00601422 /* RememberRestartTests.xctest */,
 				5C9EB52C2B64A4AF00601422 /* RememberRestartUITests.xctest */,
 			);
@@ -234,7 +234,7 @@
 				5C2CB4A32B9961F9008E573F /* LaunchAtLogin */,
 			);
 			productName = UptimeMenu;
-			productReference = 5C9EB5112B64A4AE00601422 /* RememberRestart.app */;
+			productReference = 5C9EB5112B64A4AE00601422 /* RememberRestart-dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5C9EB5212B64A4AF00601422 /* RememberRestartTests */ = {
@@ -541,8 +541,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.covelline.RememberRestart;
-				PRODUCT_NAME = RememberRestart;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.covelline.RememberRestart-dev";
+				PRODUCT_NAME = "RememberRestart-dev";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
