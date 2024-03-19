@@ -4,12 +4,12 @@
 | --------------------------------- | ------------------------------------- |
 | ![Screenshot](./docs/ss-menu.png) | ![Screenshot](./docs/ss-settings.png) |
 
-## Welcome to Remember Restart for Mac
+## Welcome to Remember Restart for mac
 
 Keeping your Mac running smoothly requires regular maintenance, and one of the simplest yet most effective actions you can take is to restart your Mac periodically.
 Remember Restart for mac is here to ensure that you never forget this crucial step.
 
-## Why Remember Restart for Mac?
+## Why Remember Restart for mac?
 
 **Enhanced Performance:** Prolonged usage without restarts can lead to memory leaks, sluggishness, and unexpected application behavior. Our tool gently reminds you to restart your Mac at intervals you set, helping maintain its speed and reliability.
 
