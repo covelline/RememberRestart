@@ -42,14 +42,41 @@ struct RememberRestartApp: App {
     private var menuBarLabel: some View {
         switch menuBarStyle {
         case .uptimeAndIcon:
-            Label(uptime.uptime, systemImage: "clock")
+            label
                 .labelStyle(.titleAndIcon)
         case .iconOnly:
-            Label(uptime.uptime, systemImage: "clock")
+            label
                 .labelStyle(.iconOnly)
         case .uptimeOnly:
-            Label(uptime.uptime, systemImage: "clock")
+            label
                 .labelStyle(.titleOnly)
         }
+    }
+
+    @ViewBuilder
+    private var label: some View {
+        Label(
+            title: {
+                #if DEBUG
+                    Text(verbatim: "\(uptime.uptime) dev")
+                #else
+                    Text(uptime.uptime)
+                #endif
+
+            },
+            icon: {
+                menuBarIcon
+            }
+        )
+    }
+
+    private var menuBarIcon: Image {
+        // https://stackoverflow.com/a/77263538
+        guard let image = NSImage(named: "icon") else { fatalError("icon not found.") }
+        let ratio = image.size.height / image.size.width
+        let size: CGFloat = 21
+        image.size.height = size
+        image.size.width = size / ratio
+        return Image(nsImage: image)
     }
 }
