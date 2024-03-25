@@ -2,9 +2,9 @@
 
 # Remember Restart for mac
 
-| Menu                              | Settings                              |
-| --------------------------------- | ------------------------------------- |
-| ![Screenshot](./docs/ss-menu.png) | ![Screenshot](./docs/ss-settings.png) |
+| Menu                              | Settings                              | Notification                              |
+| --------------------------------- | ------------------------------------- | ----------------------------------------- |
+| ![Screenshot](./docs/ss-menu.png) | ![Screenshot](./docs/ss-settings.png) | ![Screenshot](./docs/ss-notification.png) |
 
 ## Welcome to Remember Restart for mac
 
