@@ -1,3 +1,5 @@
+<img src="./docs/icon.png" width="200">
+
 # Remember Restart for mac
 
 | Menu                              | Settings                              |
