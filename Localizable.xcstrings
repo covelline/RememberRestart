@@ -257,42 +257,12 @@
         }
       }
     },
-    "The uptime has exceeded %lld days" : {
+    "The specified deadline has passed." : {
       "localizations" : {
-        "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "The uptime has exceeded %lld day"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "The uptime has exceeded %lld days"
-                }
-              }
-            }
-          }
-        },
         "ja" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "指定した時間より%lld日過ぎています。"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "指定した時間より%lld日過ぎています。"
-                }
-              }
-            }
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指定した期限が過ぎています。"
           }
         }
       }

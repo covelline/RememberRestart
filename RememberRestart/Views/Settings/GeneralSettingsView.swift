@@ -77,7 +77,7 @@ struct GeneralSettingsView: View {
             .lineLimit(1)
             .labelsHidden()
             if isPassed {
-                Text("The uptime has exceeded \(timelimitDays) days")
+                Text("The specified deadline has passed.")
                     .foregroundColor(.red)
             } else {
                 // 通知予定時刻を絶対時刻で表示
