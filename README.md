@@ -1,6 +1,8 @@
-<img src="./docs/icon.png" width="200">
-
 # Remember Restart for mac
+
+[![Download on the App Store](./docs//Download_on_the_Mac_App_Store_Badge.svg)](https://apps.apple.com/jp/app/remember-restart/id6479639881)
+
+<img src="./docs/icon.png" width="200">
 
 | Menu                              | Settings                              | Notification                              |
 | --------------------------------- | ------------------------------------- | ----------------------------------------- |
