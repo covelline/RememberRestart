@@ -25,6 +25,15 @@ final class NotificationManager: ObservableObject {
     func cancelNotification() {
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [notificationRequestIdentifier])
     }
+
+    #if DEBUG
+        func addDebugNotification() {
+            let content = createNotificationContent(days: 3)
+
+            let request = UNNotificationRequest(identifier: notificationRequestIdentifier + "debug", content: content, trigger: nil)
+            UNUserNotificationCenter.current().add(request)
+        }
+    #endif
 }
 
 extension NotificationManager {
