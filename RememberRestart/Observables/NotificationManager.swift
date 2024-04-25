@@ -30,8 +30,8 @@ final class NotificationManager: ObservableObject {
 extension NotificationManager {
     func createNotificationContent(days: Int) -> UNNotificationContent {
         let content = UNMutableNotificationContent()
-        content.title = "You have not restarted for \(days) days."
-        content.body = "You will get better performance if you restart your Mac regularly. It will also prevent the machine from becoming unstable."
+        content.title = String(localized: "You have not restarted for \(days) days.")
+        content.body = String(localized: "Notification-body")
         content.sound = .default
 
         return content

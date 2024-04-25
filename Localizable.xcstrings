@@ -177,6 +177,22 @@
         }
       }
     },
+    "Notification-body" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You will get better performance if you restart your Mac regularly. It will also prevent the machine from becoming unstable."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "定期的な再起動を行うことであなたのマシンのパフォーマンスを最大限引き出すことができ、不安定になることも防げます。"
+          }
+        }
+      }
+    },
     "Notify after" : {
       "localizations" : {
         "en" : {
@@ -259,6 +275,12 @@
     },
     "The specified deadline has passed." : {
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The specified deadline has passed."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -279,6 +301,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "バージョン: %@"
+          }
+        }
+      }
+    },
+    "You have not restarted for %lld days." : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You have not restarted for %lld day."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You have not restarted for %lld days."
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "variations" : {
+            "plural" : {
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "あなたは %lld 日再起動していません。"
+                }
+              }
+            }
           }
         }
       }
