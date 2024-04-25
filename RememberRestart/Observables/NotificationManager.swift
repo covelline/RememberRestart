@@ -25,13 +25,22 @@ final class NotificationManager: ObservableObject {
     func cancelNotification() {
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [notificationRequestIdentifier])
     }
+
+    #if DEBUG
+        func addDebugNotification() {
+            let content = createNotificationContent(days: 3)
+
+            let request = UNNotificationRequest(identifier: notificationRequestIdentifier + "debug", content: content, trigger: nil)
+            UNUserNotificationCenter.current().add(request)
+        }
+    #endif
 }
 
 extension NotificationManager {
     func createNotificationContent(days: Int) -> UNNotificationContent {
         let content = UNMutableNotificationContent()
-        content.title = "You have not restarted for \(days) days."
-        content.body = "You will get better performance if you restart your Mac regularly. It will also prevent the machine from becoming unstable."
+        content.title = String(localized: "You have not restarted for \(days) days.")
+        content.body = String(localized: "Notification-body")
         content.sound = .default
 
         return content
